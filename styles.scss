@@ -1,0 +1,6 @@
+@import './scss/vendors/normalize.css', './scss/vendors/reset';
+@import './scss/abstracts/variables';
+@import './scss/base/base', './scss/base/fonts';
+@import './scss/layout/header';
+@import './scss/components/logo', './scss/components/button',
+  './scss/components/link-contact', './scss/components/burger', './scss/components/menu';

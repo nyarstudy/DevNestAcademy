@@ -1,0 +1,10 @@
+include pug/components/mixins/main-mixin.pug
+doctype html
+html  
+  include pug/includes/head.pug
+  body 
+    .wrapper  
+      include pug/includes/header.pug
+      include pug/components/menu.pug
+    
+    script(src="./js/menu.js" type="module") 

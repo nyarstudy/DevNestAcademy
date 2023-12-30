@@ -1,0 +1,23 @@
+.header {
+  background-color: $primary-accent-color;
+  padding: clamp(1rem, 0.432rem + 2.84vw, 2.25rem) 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__info {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  &__logo {
+    cursor: pointer;
+  }
+}
